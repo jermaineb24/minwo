@@ -1,0 +1,32 @@
+[{
+  "title": "Driving the Future of Product Inventory Management",
+  "subtitle": "DEALER INSIGHTS",
+  "imgurl": "/img/dealerinsights.png",
+  "oneliner": "Bedrock powers Dealer Insights across platforms.",
+  "challenge": "Motorsports dealers are currently grasping for a way to gain insight into their product inventory and benchmark their business against their peers. CDF has a wealth of data available but needed a way to visualize it and provide it to their customers. These dealers are on the move and have a high adoption rate for mobile devices so the solution needed to work across screen sizes and in different environments.",
+  "solution":"Taking a mobile-first approach, Bedrock provided all of the needed tools to quickly deliver this 45-day MVP project (from start to production) for the CDF business."
+},
+{
+  "title": "Customer Credit Right from the Dealership",
+  "subtitle": "EAPPS - NAVISTAR",
+  "imgurl": "/img/eapps.png",
+  "oneliner": "Bedrock enables dealership websites to link directly into online credit application",
+  "challenge": "Navistar customers want the ability to apply for financing before entering the dealership. Dealerships need to fill this need to gain valuable leads into customers ready to buy by providing some mechanism to collect credit information directly from their website.",
+  "solution":"Using Bedrock enabled the team to leverage work done for previous projects as reusable components, making the focus of the effort streamlining the credit process from a manual PDF to a simple online form, all within 7 weeks."
+},
+{
+  "title": "The Corporate Financing of Tomorrow",
+  "subtitle": "CAPITAL<em>EASE</em>",
+  "imgurl": "/img/capitalease.png",
+  "oneliner": "Bedrock speeds delivery of Capital<em>Ease</em> website, enabling Corporate Finance the ability to test assumptions on huge growth areas.",
+  "challenge":"GE Corporate Finance deals in high value equipment leases directly to corporations. Due to the size & complexity of these leases, transactions only occur directly with a sales rep. As a result, the business missed out on prospects whose deal size didn't warrant a sales rep's involvement. To target these prospects, the business needed an online credit application built and deployed ASAP.",
+  "solution":"Using Bedrock enabled the Fastworks team to deliver Capital<em>Ease</em> in under 3 months. A simple 'git clone' provided the team with a tested, fully optimized, and deployable website, freeing them from the pitfalls and headaches typical of a new project."
+},
+{
+  "title": "Bedrock? Why, You're Looking At It!",
+  "subtitle": "BEDROCK DEVELOPMENT WEBSITE",
+  "imgurl": "/img/bedrocksite.png",
+  "oneliner": "Bedrock speeds delivery of its own website, publicly sharing best practices and technology among the front end developer community in GE Capital.",
+  "challenge": "The GECA UX CoE FED team needed three new team members with limited front-end experience to build the team's mouthpiece to the organization in order to share industry best practices, design patterns, and the veritable magic of Bedrock with the broader Capital front-end developer community.",
+  "solution": "Using Bedrock, the new team members instantly spun up this site and immersed themselves in learning javascript, design patterns, and industry best practices interactively, rather than spending weeks stringing together project configurations. As a result, the team was able to produce a high-quality codebase, do extensive testing, and rapidly incorporate team feedback while simultaneously contributing positively to additional customer-facing products."
+}]

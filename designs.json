@@ -1,0 +1,43 @@
+[
+    {
+        "title": "Presenters",
+        "what": "Presenters simplify routing provide an easy way to place multiple Backbone views on a single page, and present a painless way to share models between views.",
+        "how": "When creating a new Backbone module, create a presenter. By default, Bedrock will route to presenters and pass arguments captured from the URL. The presenter will then create the view(s).",
+        "why": "Presenters promote reusability by breaking your pages into smaller components that can be used across multiple implementations."
+    },
+    {
+        "title": "Two-way Binding",
+        "what": "One-way data binding occurs when a model changes and the view is updated. Two-way data binding occurs when a model changes and the view is updated, and also when the view changes the model is updated.",
+        "how": "Bedrock uses <a href=\"https://github.com/therironcook/Backbone.ModelBinder\">Backbone.ModelBinder</a> to simplify two way binding in Backbone.",
+        "why": "ModelBinder removes custom boilerplate code that is required in order to synchronize models and views. When ModelBinder is coupled with the <a href=\"https://github.com/thedersen/backbone.validation\">Backbone.Validation</a> plugin, a developer is able to rapidly create robust forms and user input interfaces."
+
+    },
+    {
+        "title": "Optimized Apache Configurations",
+        "what": "Bedrock packages comes with an Apache .htaccess file in the \"/target\" and \"/src\" directories. The .htaccess file is pre-configured to set cache headers for static assets, and enables the ability to maintain deep-links for single page applications.",
+        "how": "By enabling \"Allow Override\" (see <a href=\"http://bedrock.comfin.ge.com/start\" target=\"_blank\">Getting Started</a>, Apache Configurations) in your Apache configurations, the .htaccess file is able to set the server configurations in the directory that the .htaccess file resides.",
+        "why": "If your project is using Apache, using .htaccess allows configurations specific to your application to be applied without impacting other projects that are using your Apache server."
+        
+    },
+    {
+        "title": "Production Build Script",
+        "what": "Bedrock includes a script file that combines source files into a single archive that can be deployed to an environment.",
+        "how": "Bedrock leverages <a href=\"http://gruntjs.com\" target=\"_blank\">Grunt</a>, a task tool letting the user validate, optimize, and archive a site into a .zip file. This .zip file can be used in an automated deploy system, or manually unzipped in a web directory.",
+        "why": "Validating code means mistakes are caught before they are deployed to production, optimizing the code will increase site performance, and archiving the code into a .zip file means that Bedrock can be used across multiple deploy systems."
+        
+    },
+    {
+        "title": "Continuous Integration",
+        "what": "Bedrock integrates with the source code analysis tools AppScan, Fortify, and Sonar to ensure code quality and security..",
+        "how": " The Continuous Delivery (CD) Team has the capability to leverage their continuous integration (CI) tools on JavaScript. Integrating Bedrock with a Jenkins server through the remove build plugin gives you access to the CI tools and an executive dashboard for your results.",
+        "why": " Continuous integration with the CD Team provides a constant health check on your applications. The executive dashboard provides insight into technical debt. This insight improves prioritization of tasks and maintenance, and identify potential security vulnerabilities."
+    },
+    {
+        "title": " i18n Enabled ",
+        "what": "Bedrock supports viewing an application in multiple languages.",
+        "how": "Bedrock uses the RequireJS <a href =\"http://requirejs.org/docs/download.html#i18n\" target=\"_blank\">i18n plugin</a> to select the correct translations for the content in your application from the user's language browser preference or from a user's selected language preference.",
+        "why": " i18n within Bedrock will allow you to deliver content to a diverse, global customer base."
+        
+        
+    }
+]
